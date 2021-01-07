@@ -1,7 +1,10 @@
 // state & effect hook documentation https://reactjs.org/docs/hooks-overview.html
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import logo from './logo.svg';
+import Wrapper from ".components/Wrapper";
+import Navbar from ".components/Navbar";
+import EmpTable from ".components/EmpTable";
+import TableData from ".components/TableData";
 import employeeAPI from './utils/API';
 
 function App() {
