@@ -5,10 +5,14 @@ function EmpTable (props){
         <table className="table">
             <thead>
                 <tr>
-                    <th>
-                        
-                    </th>
+                    <th scope='col'>Profile Photo</th>
+                    <th scope='col'>Employee Name</th>
+                    <th scope='col'>Email Address</th>
+                    <th scope='col'>Phone Number</th>
                 </tr>
+                <tbody>
+                    {props.children}
+                </tbody>
                 
             </thead>
         </table>
